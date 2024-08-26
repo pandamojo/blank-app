@@ -4,6 +4,29 @@ import streamlit as st
 
 model = pickle.load(open('model.pkl', 'rb'))
 
+# Define the CSS for additional customization
+st.markdown(
+    """
+    <style>
+    .reportview-container {
+        background-color: #7AF6FB;
+    }
+    .block-container {
+        padding: 2rem;
+    }
+    .stTitle {
+        font-size: 2.5rem;
+        color: #333;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+# Example content
+st.title('Styled Streamlit App')
+st.write('This app has custom padding and title styling.')
+
 col0, col1, col2, col3, col4, col5, col6 = st.columns(7)
 with col0:
     st.write('')
@@ -12,7 +35,7 @@ with col1:
 with col2:
     st.write('')    
 with col3:
-    st.title("ⴍage") 
+    st.title("salary predictor") 
 with col4:
     st.write('')
 with col5:
