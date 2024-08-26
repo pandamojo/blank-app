@@ -47,7 +47,7 @@ col7, col8, col9 = st.columns(3)
 with col7:
     st.write('')    
 with col8:
-    st.markdown("<h6 style='text-align: center;'>A simple web app to predict annual salary</h6>", unsafe_allow_html=True)
+    st.markdown("<h6 style='text-align: left;'>A simple web app to predict annual salary</h6>", unsafe_allow_html=True)
 with col9:
     st.write('')
 
