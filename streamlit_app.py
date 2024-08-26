@@ -9,7 +9,7 @@ st.markdown(
     """
     <style>
     .reportview-container {
-        background-color: #7AF6FB;
+        background-color: #E4080A;
     }
     .block-container {
         padding: 2rem;
